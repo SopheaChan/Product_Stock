@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/drink_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/text_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/drink_image"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/color_black"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/text_quantity_left_in_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/color_black"
+        android:layout_below="@id/text_product_name"
+        android:layout_toEndOf="@id/drink_image"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/text_import_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/color_black"
+        android:layout_below="@id/text_quantity_left_in_stock"
+        android:layout_toEndOf="@id/drink_image"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+</RelativeLayout>

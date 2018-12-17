@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTitle">#1f38c6</color>
+    <color name="color_line_style">#0215e8</color>
+    <color name="color_line_style1">#0398b2</color>
+    <color name="color_light_red">#e82250</color>
+    <color name="color_button">#86a5ef</color>
+    <color name="color_light_pink">#ff77e6</color>
+    <color name="color_black">#000000</color>
+    <color name="color_product_name">#000cfc</color>
+</resources>
